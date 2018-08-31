@@ -63,8 +63,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAn-Oe-8gP">
                                 <rect key="frame" x="16" y="583" width="343" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91580724716186523" green="0.84767580032348633" blue="0.53729909658432007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="Next Word"/>
+                                <state key="normal" title="Next Word">
+                                    <color key="titleColor" red="0.048978857696056366" green="0.13952305912971497" blue="0.12532889842987061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="wordSubmitted:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsr-4E-8BF"/>
                                 </connections>
