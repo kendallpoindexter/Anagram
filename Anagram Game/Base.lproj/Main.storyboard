@@ -65,11 +65,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Next Word"/>
+                                <connections>
+                                    <action selector="wordSubmitted:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsr-4E-8BF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="outputQ" destination="Ic7-X4-KYI" id="hTr-U1-47U"/>
+                        <outlet property="scoreLabel" destination="WmW-zz-nIZ" id="Bqt-jH-Slf"/>
+                        <outlet property="userAnswer" destination="4au-g3-b2J" id="39S-WK-g6u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
